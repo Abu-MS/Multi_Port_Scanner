@@ -44,6 +44,3 @@ This script only scans TCP ports.
 UDP scanning is not yet supported.
 
 Timeout is currently set to 2 seconds per port.
-
-## 📄 License
-MIT License
