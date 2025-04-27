@@ -24,25 +24,26 @@ A Python-based TCP port scanner that allows scanning single ports, multiple port
 
 ## 🧪 Example Usage
 
-```bash
+~~~bash
 $ python3 multi_port_scanner.py
 Enter domain: example.com
 Enter ports (Eg: 21,22,80 or 21-25 or 80): 21, 22, 25
-📦 Requirements
+~~~
+
+## 📦 Requirements
 Python 3.x (standard libraries only – no external dependencies)
 
-📁 File Structure
-Copy
-Edit
+##📁 File Structure
+
 multi_port_scanner/
 └── multi_port_scanner.py
 
-📌 Notes
+## 📌 Notes
 This script only scans TCP ports.
 
 UDP scanning is not yet supported.
 
 Timeout is currently set to 2 seconds per port.
 
-📄 License
+## 📄 License
 MIT License
